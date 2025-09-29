@@ -80,4 +80,4 @@ sudo bash ./wazuh-install.sh --uninstall
 
 Open a web browser and navigate to https://<your_server_IP_address>. Use the credentials you saved to log in.
 
-<img src="./img/dashboard.png" width=300>
+<img src="./Image/dashboard.png" width=300>
