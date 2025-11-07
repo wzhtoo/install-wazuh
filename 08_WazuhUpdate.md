@@ -1,3 +1,30 @@
+# Easy Way to update
+
+We just need to click that `Upgrade` button!**
+
+The Wazuh Dashboard's UI (User Interface) can have slightly different labels across versions, but in previous versions, it is typically labeled **`Upgrade`** or **`Upgrade Agent`** exactly as you see it.
+
+# Agent Upgrade Process (Via Dashboard)
+
+#### Step 1: Click the Upgrade Button
+
+In the Dashboard's **Agent List** (or within the **Agents** section), click the 3-dot menu next to **`001 Win 11 prohost`** and select the **`Upgrade`** option.
+
+#### Step 2: Select the Version and Confirm
+
+*   After clicking `Upgrade`, an **Upgrade Dialog Box** will appear.
+*   This dialog will prompt you to select a **Version**.
+*   Please select the version that matches your **Manager** (for example, **4.14.0** or **4.14**).
+*   Click the **`Upgrade`** or **`Confirm`** button to start the process.
+
+#### What Happens During the Upgrade?
+
+1.  The **Manager** will send the upgrade files to the **Win11prohost Agent**.
+2.  The agent will temporarily go **Offline**.
+3.  Once the upgrade is complete, the **Agent Service** will automatically **Restart** and come back **Online**.
+
+Once you start the upgrade process, please keep an eye on the Dashboard to see if the **Win11prohost Agent** successfully comes back **Online**.
+
 # Wazuh Manager (Ubuntu Server)
 ### ⚠️ Important Warning (Backup)
 
